@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-from .py_utils import TopPool, BottomPool, LeftPool, RightPool
+from .py_utils import TopPool, BottomPool, LeftPool, RightPool # corner pooling
 
 from .py_utils.utils import convolution, corner_pool, residual
 from .py_utils.losses import CornerNet_Loss

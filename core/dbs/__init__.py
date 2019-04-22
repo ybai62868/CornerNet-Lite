@@ -1,6 +1,8 @@
 from .coco import COCO
+from .dac import DAC
 
 datasets = {
-    "COCO": COCO
+    "COCO": COCO,
+    "DAC": DAC
 }
 
